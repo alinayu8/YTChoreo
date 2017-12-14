@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/javascripts/login.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <div id="login">
+            <h1>login</h1>
+            <form id="login-form"> 
+                <input id="username" type="text" placeholder="username" value=""/><br>
+                <input id="password" type="text" placeholder="password" value=""/><br>
+                <input id="login_btn" type="submit" value="login"/> 
+           </form>
+           <div id="new_user">new user?</div>
+        </div>
+
+        <div id="register">
+            <h1>register</h1>
+            <form id="register-form"> 
+                <input id="new_username" type="text" placeholder="username" value=""/><br>
+                <input id="new_password" type="text" placeholder="new_password" value=""/><br>
+                <input id="confirm_password" type="text" placeholder="confirm_password" value=""/>
+                <input id="signup_btn" type="submit" value="sign up"/> 
+           </form>
+           <div id="existing_user">existing user?</div>
+        </div>
+
+        <div id="entry_errors"></div>
+
+    </body>
+</html>

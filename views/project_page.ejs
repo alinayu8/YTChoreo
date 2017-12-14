@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="/javascripts/project_page.js"></script>
+        <script src="/javascripts/synch.js"></script>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <h1>welcome, <div id="username"><%= username %></div> </h1>
+        <h1><div id="project"><%= project_name %></div></h1>
+        <div id="youtube_vid"></div>
+        <!-- formations -->
+        <div id="under_vid">
+            <div id="dancer_panel"></div>
+            <div id="formation_panel">
+                <form id="add_yt_time">
+                    <input type="text" name="time" id="youtube_time" placeholder="enter youtube time"></input>
+                    <button type="submit" id="add_time">add</button>
+                <form><br>
+                <div id="navigate">
+                    <!-- <button id="previous">previous</button> -->
+                    <!-- <button id="next">next</button> -->
+                    <button id="add_formation">add another formation</button>
+                </div> 
+                <div id="formations"></div>
+            </div>
+
+        </div>
+    </body>
+</html>

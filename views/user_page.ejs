@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/javascripts/user_page.js"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://www.youtube.com/iframe_api"></script>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <h1>welcome, <div id="username"><%= username %></div></h1>
+        <div id="window">
+            <h2 id="open_proj">open</h2>
+            <h2 id="new_proj">new</h2>
+        </div>
+
+        <form id="new_proj_form">
+            <input name="proj_name" type="text" placeholder="enter project name"><br>
+            <input name="youtube_url" type="text" placeholder="enter youtube video url"><br>
+            <div class="input_fields_wrap">
+                <input name="dancer_name[]" type="text" placeholder="enter a dancer's name">
+                <input name="dancer_color[]" type="color" placeholder="select a dancer's color">
+                <button id="add_more_dancers">add more dancers</button><br>
+            </div>
+            <button id="create_project" type="submit" value="create"">create new project</button>
+        </form>
+
+    </body>
+</html>

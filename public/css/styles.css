@@ -1,0 +1,45 @@
+#register {
+    display: none;
+}
+
+#new_proj_form {
+    display: none;
+}
+
+#open_proj {
+    display: none;
+}
+
+#navigate {
+    display: none;
+}
+
+#formation_panel {
+    float: left;
+    display: inline-block;
+}
+
+.dot {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#youtube_vid {
+    float: left;
+    display: inline-block;
+}
+
+#formations {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 2%;
+    height: 20em;
+    width: 30em;
+}
+
+.move {
+    position: absolute;
+}
